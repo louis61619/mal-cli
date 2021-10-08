@@ -11,6 +11,8 @@ module.exports = {
   },
   rules: {
     'global-require': 'off',
-    'no-console': 'off'
+    'no-console': 'off',
+    'no-unused-vars': 'warn',
+    'no-restricted-globals': 'off'
   }
 }

@@ -1,29 +1,45 @@
 {
-  "name": "my-cli",
+  "name": "mal-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a command line to create your project get faster",
   "main": "index.js",
   "bin": {
-    "my-cli": "index.js"
+    "mal-cli": "index.js"
   },
   "scripts": {
     "prettier": "prettier --write .",
+    "commit": "cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "vue"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "axios": "^0.22.0",
+    "chalk": "^4.1.2",
+    "cli-spinners": "^2.6.1",
     "commander": "^8.2.0",
     "download-git-repo": "^3.0.2",
-    "inquirer": "^8.2.0"
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^6.0.1"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
