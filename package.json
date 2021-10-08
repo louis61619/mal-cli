@@ -15,7 +15,12 @@
     "cli",
     "vue"
   ],
-  "author": "",
+  "homepage": "https://github.com/louis61619/mal-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/louis61619/mal-cli"
+  },
+  "author": "louis61619",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.22.0",
