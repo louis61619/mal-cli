@@ -10,6 +10,10 @@ const { helpOptions } = require('./lib/core/help')
 const creareCommands = require('./lib/core/create')
 
 // 創建本地緩存
+const LocalCache = require('./lib/utils/LocalCache')
+
+LocalCache.initCofingPath()
+// LocalCache.initConfig()
 
 // 查看版本號
 program.version(require('./package.json').version, '-v', '--version') // 新增-v的參數設置

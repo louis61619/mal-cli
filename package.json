@@ -1,6 +1,6 @@
 {
   "name": "mal-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this is a command line to create your project get faster",
   "main": "index.js",
   "bin": {
