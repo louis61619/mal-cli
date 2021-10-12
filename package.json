@@ -1,6 +1,6 @@
 {
   "name": "mal-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this is a command line to create your project get faster",
   "main": "index.js",
   "bin": {
@@ -26,6 +26,7 @@
     "axios": "^0.22.0",
     "chalk": "^4.1.2",
     "cli-spinners": "^2.6.1",
+    "cli-table": "^0.3.6",
     "commander": "^8.2.0",
     "download-git-repo": "^3.0.2",
     "figlet": "^1.5.2",
