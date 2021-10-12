@@ -10,11 +10,31 @@ npm i -g mal-cli
 
 ## 使用
 
+下載模板
+
 ```
 mal-cli create my-app
 ```
 
 > 預設只有一個 vue3 的模板
+
+新增模板
+
+```
+mal-cli add new-repo
+```
+
+刪除模板
+
+```
+mal-cli setup
+```
+
+查看本地設置
+
+```
+mal-cli ls
+```
 
 ## 修改設定檔
 
@@ -36,8 +56,28 @@ you can use this cli tools to manage your template on github
 
 ## Install
 
+download repo
+
 ```
 npm i -g mal-cli
+```
+
+add new repo config
+
+```
+mal-cli add new-repo
+```
+
+see local config
+
+```
+mal-cli ls
+```
+
+remove local config
+
+```
+mal-cli setup
 ```
 
 ## Usage
