@@ -1,11 +1,11 @@
-# mal-cli
+# l-lib
 
 這是一個用於管理 github 倉庫的工具，透過設定檔案快速下載想要使用的模板
 
 ## 安裝
 
 ```
-npm i -g mal-cli
+npm i -g @l-lib/cli
 ```
 
 ## 使用
@@ -13,7 +13,7 @@ npm i -g mal-cli
 下載模板
 
 ```
-mal-cli create my-app
+l-lib create my-app
 ```
 
 > 預設只有一個 vue3 的模板
@@ -21,24 +21,24 @@ mal-cli create my-app
 新增模板
 
 ```
-mal-cli add new-repo
+l-lib add new-repo
 ```
 
 刪除模板
 
 ```
-mal-cli setup
+l-lib setup
 ```
 
 查看本地設置
 
 ```
-mal-cli ls
+l-lib ls
 ```
 
 ## 修改設定檔
 
-設定檔位於 ~/.mal-cli/config.json
+設定檔位於 ~/.l-lib/config.json
 
 ```
 {
@@ -59,36 +59,36 @@ you can use this cli tools to manage your template on github
 download repo
 
 ```
-npm i -g mal-cli
+npm i -g @l-lib/cli
 ```
 
 add new repo config
 
 ```
-mal-cli add new-repo
+l-lib add new-repo
 ```
 
 see local config
 
 ```
-mal-cli ls
+l-lib ls
 ```
 
 remove local config
 
 ```
-mal-cli setup
+l-lib setup
 ```
 
 ## Usage
 
 ```
-mal-cli create my-app
+l-lib create my-app
 ```
 
 ## Config
 
-if you want to change setting, you can modify setting file in ~/.mal-cli
+if you want to change setting, you can modify setting file in ~/.l-lib
 
 ```
 {

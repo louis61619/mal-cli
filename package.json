@@ -1,10 +1,10 @@
 {
-  "name": "mal-cli",
+  "name": "@l-lib/cli",
   "version": "1.0.4",
   "description": "this is a command line to create your project get faster",
   "main": "index.js",
   "bin": {
-    "mal-cli": "index.js"
+    "l-lib": "index.js"
   },
   "scripts": {
     "prettier": "prettier --write .",
